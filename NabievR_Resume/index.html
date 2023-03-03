@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="keywords" content="Rinat, cv, Resume">
+	<meta name="description" content="Это сайт - резюме Набиева Рината">
+	<link rel="stylesheet" href="styles.css">
+	<title>Rinat Resume</title>
+</head>
+<body>
+	<div class="container">
+		<div class="info">
+			<img src="IMG_Rinat_N.jpg" alt="Ринат Набиев" class="avatar">
+			<div class="info-text">
+
+				<h1>Ринат Набиев</h1>
+
+				<p>Я ученик Innopolis</p>
+
+				<p>Я, хочу заниматься программированием и сделать это основной <br>профессией,
+				также есть иные профессий и увлечения.</p>
+
+				<h4>Список социальных сетей:</h4>
+
+				<a href="https://vk.com/nabii69" target="_blank">ВК</a>
+				|
+				<a href="https://ok.ru/profile/578312375663" target="_blank">ОК</a>
+				|
+				<a href="https://t.me/nabii869" target="_blank">Телеграмм</a>
+			</div>
+		</div>
+		
+		<div class="card bg-green">
+			<h2>Мои хобби</h2>
+
+			<ol class="list">
+				<li>Гитара, песни</li>
+				<li>Книги, стихи</li>
+				<li>Спорт, зарядка</li>
+			</ol>
+		</div>
+
+		<div class="card bg-red">
+			<h2>Опыт работы</h2>
+
+			<table class="table">
+				<!-- <thead>
+					<tr>
+						<th>Название</th>
+						<th>Должность</th>
+						<th>Год</th>
+					</tr>
+				</thead> -->
+				<tbody>
+					<tr>
+						<td>Спецавтохозяйство</td>
+						<td>автослесарь</td>
+						<td>1987-1988</td>
+					</tr>
+					<tr>
+						<td>Служба в СА</td>
+						<td>Командир взвода</td>
+						<td>1988-1990</td>
+					</tr>
+					<tr>
+						<td>Стройтельство</td>
+						<td>Плиточник</td>
+						<td>1991-2000</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+
+		<div class="card bg-yellow">
+			<h2>Мои курсы</h2>
+
+			<ul class="link-list">
+				<li>Web-дизайнер</li>
+				<li>Программист 1с</li>
+			</ul>
+		</div>
+
+
+		<form action="/" class="form">
+			<h2>Связаться со мной</h2>
+			<div class="form-row">
+				<div class="form-group">
+					<label for="name">Ваше имя:</label>
+					<input type="text" id="name" 
+					placeholder="Введите имя">
+				</div>
+				
+				<div class="form-group">
+					<label for="email">Ваше email:</label>
+					<input type="email" id="email"
+					placeholder="Введите email">
+				</div>
+			</div>
+			<div class="form-group">
+				<label for="message">Ваше сообщение:</label>
+				<textarea id="message" cols="20" rows="5"
+				placeholder="Введите сообщение..."></textarea>
+			</div>
+
+			<input class="btn" type="submit" value="Отправить">
+		</form>
+	</div>
+</body>
+</html>

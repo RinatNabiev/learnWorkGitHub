@@ -1,0 +1,286 @@
+html {
+	font-family: 'Roboto', sans-serif;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.textMain {
+	font-weight: 400;
+	font-size: 25px;
+	line-height: 29px;
+	color: #000000;
+}
+
+/* header */
+.header {
+    width: 100%;
+    background-color: #21387e;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1300px;
+    box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 15px;
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-menu {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.site-menu > li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-link {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    padding: 0 18px;
+    background-color: #21387e;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration-line: underline;
+}
+
+.menu-link:hover {
+    background-color: #ffffff;
+    color: #21387e;
+    text-decoration: none;
+       
+}
+
+.active-link {
+	color: #21387e;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #ea5d21;
+    width: 100%;
+    max-width: 153px;
+    min-height: 50px;
+	cursor: pointer;
+}
+/* main */
+
+.main {
+    width: 100%;
+    max-width: 911px;
+    margin: 0 auto;
+    flex-grow: 1;
+}
+
+.class-photo {
+    width: 100%;
+    max-width: 523px;
+    height: 316px; 
+}
+
+.main-heading {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+h2 {
+   
+    font-weight: 400;
+    font-size: 25px;  
+}
+
+.intro-text {
+    width: 100%;
+    max-width: 634px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+em {
+    color: rgba(207, 85, 16, 1);
+
+    
+}
+
+.text-wrapper {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.text-aside {
+
+}
+
+.blockquote {
+	font-family: 'lobster';
+	font-style: normal;
+	font-weight: bold;
+	font-size: 30px;
+	color: #546454
+}
+
+.text-italic {
+	color: #546454;
+}
+
+/* Students */
+
+.students {
+	max-width: 1200px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.student {
+	padding-left: 50px;
+}
+
+.student-name {
+	display: block;
+	text-align: center;
+}
+
+.new-student {
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	background: #3aa828;
+	color: #ffffff;
+	padding: 2px 6px 2px;
+	text-transform: uppercase;
+	border-radius: 20px;
+	text-decoration: none;
+	position: relative;
+	top: -336px;
+	left: 118px;
+}
+
+/* footer */
+
+.footer {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    max-width: 1300px;
+    min-height: 60px;
+    margin: 0 auto;
+    padding: 0 16px;
+    justify-content: center;
+    align-items: center;
+    background-color: #21387e;
+}
+
+.copyright {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+    background: rgba(255, 255, 255, 0.5);
+
+}
+ 
+.innop-link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px; 
+    background: rgba(255, 255, 255, 0.5);
+}
+
+/* Contacts */
+
+.textAddress {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.phoneNumber {
+	margin-top: 16px;
+	text-decoration: underline;
+}
+
+.about-photo {
+	max-width: 1400px;
+	width: 100%;
+	height: auto;
+}
+
+.map {
+	width: 100%;
+	max-width: 1300px;
+	min-height: 370px;
+	margin: 0 auto;
+	padding: 0 16px;
+	box-sizing: border-box;
+}
+
+ /* media */ 
+
+   @media (max-width: 1000px) {
+
+	.main {
+		box-sizing: border-box;
+		padding: 0 2vw;
+	}
+    .header {
+		justify-content: center;
+        width: 70%;
+    }
+
+	.blockquote {
+		margin-left: 50px;
+	}
+
+	.blockquote::after {
+		margin-right: 50px;
+	}
+
+	.intro-text {
+		margin-bottom: 40px;
+	}
+
+	.login-input {
+		width: 100%;
+		max-width: 300px;
+	}
+
+	.login-password {
+		width: 100%;
+		max-width: 300px;
+	}
+    .site-menu {
+        width: 60%;
+        min-height: 80px;
+    } 
+}  
